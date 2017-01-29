@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>淘美鞋</title>
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="css/public.css" />
+	</head>
+	<body>
+		<div class="header">
+			<div class="top-barwrap">
+				<div class="top-bar">
+					<ul class="top-l">
+						<li class="wellcome">您好，欢迎光临!</li>
+						<li><a id="logining" href="javascript:void(0)"></a></li>
+						<li class="top-login"><a href="login.html">登录</a><i>|</i></li>
+						<li class="top-register"><a href="register.html">注册</a></li>
+						<li class="my-order"><a href="#">我的订单</a></li>
+						<li class="taobao-order"><a href="#">淘宝订单</a></li>
+						<li class="top-msg">
+							<a class="msg-ico" href="#"></a>
+							<i></i>
+							<div class="msg-box">
+								<h5>商城消息：</h5>
+								<ul>
+									<li><a href=""><span>15天</span>退换货保障！<span>30天</span>超长保修！</a></li>
+									<li><a href=""><span>4年</span>诚信经营！<span>100%</span>一手货源！</a></li>
+									<li><a href="">商城新版上线<span>100%正品</span>保证！</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+					<ul class="top-r">
+						<li><a href="#">最新下架</a></li>
+						<li><a href="#">快递跟踪</a></li>
+						<li><a href="#">本站收藏</a></li>
+						<li class="tel">客服热线：<span>4008518595</span></li>
+					</ul>
+				</div>
+			</div>
+			<div class="top-area">
+				<div class="logo">
+					<h1><a href="#"><img src="img/logo.png" alt="" /></a></h1>
+				</div>
+				<div class="searchwrap">
+					<div class="search">
+						<input type="text" id="search" placeholder="请输入关键字或货号搜索"/>
+						<dl>
+							<dt>热词：</dt>
+							<dd>
+								<a href="#">单鞋</a>
+								<a href="#">凉鞋</a>
+								<a href="#">女靴</a>
+								<a href="#">高跟</a>
+								<a href="#">平底</a>
+								<a href="#">蝴蝶结</a>
+							</dd>
+						</dl>
+					</div>
+					<input class="search-btn"type="submit" value = ""/>
+				</div>
+				<div class="top-cart">
+					<div class="cart-box">
+						<p>您的购物车没有商品<br />如果已添加商品，请<a href="#">登录</a>查看</p>
+					</div>
+					<p class="cart-info"><a href="#">购物车<i>0</i>件商品</a></p>
+					
+				</div>
+			</div>
+			<div class="top-navwrap">
+				<div class="top-nav">
+					<div id="main-nav" class="main-nav">
+						<div class="main-nav-title">
+							<a href="#">全部商品分类</a>
+							<i></i>
+						</div>
+						<div class="main-nav-cata">
+							<ul>
+								<li>
+									<a class="caption" href="#">2017春季新品</a><br />
+									<a class="twig" href="#">第三季(1-9)</a>
+									<a class="twig" href="#">第二季(1-5)</a>
+									<i></i>
+								</li>
+								<li>
+									<a class="caption" href="#">秋冬女靴</a><br />
+									<a class="twig" href="#">中跟女靴</a>
+									<a class="twig" href="#">低跟/平底</a>
+									<a class="twig" href="#">高跟女靴</a>
+									<i></i>
+								</li>
+								<li>
+									<a class="caption" href="#">四季单鞋</a><br />
+									<a class="twig" href="#">高跟单鞋</a>
+									<a class="twig" href="#">中跟单鞋</a>
+									<a class="twig" href="#">平跟/低跟</a>
+									<i></i>
+								</li>
+								<li>
+									<a class="caption" href="#">夏日凉鞋</a><br />
+									<a class="twig" href="#">高跟凉鞋</a>
+									<a class="twig" href="#">中跟凉鞋</a>
+									<a class="twig" href="#">平跟/低跟</a>
+									<i></i>
+								</li>
+								<li>
+									<a class="caption" href="#">特价专区</a><br />
+									<a class="twig" href="#">浙江发货</a>
+									<a class="twig" href="#">单鞋</a>
+									<a class="twig" href="#">靴子</a>
+									<i></i>
+								</li>
+								<li>
+									<a class="caption" href="#">赠品专区</a><br />
+									<a class="twig" href="#">后跟帖</a>
+									<a class="twig" href="#">鞋垫</a>
+									<a class="twig" href="#">香包</a>
+									<i></i>
+								</li>
+							</ul>
+						</div>
+						<div class="show-nav" id="show-nav1">
+							<h3><a href="#">2017春季新品</a></h3>
+							<a class="twig" href="#">第三季(1-9)</a>
+							<a class="twig" href="#">第二季(1-5)</a>
+							<a class="twig" href="#">第二季(12-20)</a>
+						</div>
+						<div class="show-nav" id="show-nav2">
+							<h3><a href="#">秋冬女靴</a></h3>
+							<a class="twig" href="#">中跟女靴</a>
+							<a class="twig" href="#">低跟/平底</a>
+							<a class="twig" href="#">高跟女靴</a>
+						</div>
+						<div class="show-nav" id="show-nav3">
+							<h3><a href="#">四季单鞋</a></h3>
+							<a class="twig" href="#">高跟单鞋</a>
+							<a class="twig" href="#">中跟单鞋</a>
+							<a class="twig" href="#">平跟/低跟</a>
+						</div>
+						<div class="show-nav" id="show-nav4">
+							<h3><a href="#">夏日凉鞋</a></h3>
+							<a class="twig" href="#">高跟凉鞋</a>
+							<a class="twig" href="#">中跟凉鞋</a>
+							<a class="twig" href="#">平跟/低跟</a>
+						</div>
+						<div class="show-nav" id="show-nav5">
+							<h3><a href="#">特价专区</a></h3>
+							<a class="twig" href="#">浙江发货</a>
+							<a class="twig" href="#">单鞋</a>
+							<a class="twig" href="#">靴子</a>
+							<a class="twig" href="#">凉鞋</a>
+						</div>
+						<div class="show-nav" id="show-nav6">
+							<h3><a href="#">赠品专区</a></h3>
+							<a class="twig" href="#">后跟帖</a>
+							<a class="twig" href="#">鞋垫</a>
+							<a class="twig" href="#">香包</a>
+							<a class="twig" href="#">袜子</a>
+						</div>
+						
+					</div>
+					<div class="sub-nav">
+						<ul>
+							<li><a href="#">首页</a></li>
+							<li><a href="#">2017春季新品</a></li>
+							<li><a href="#">秋冬女靴</a></li>
+							<li><a href="#">四季单鞋</a></li>
+							<li><a href="#">夏日凉鞋</a></li>
+							<li><a href="#">留言反馈</a></li>
+							<li><a href="#">代理说明</a></li>
+							<li><a href="#">数据下载</a></li>
+							<li><a href="#">广告素材</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="main">
+			<div class="bannerwrap">
+				<div class="banner-m">
+					<div class="banner-t">
+						<ul class="imgs" id="imgs">
+							<li><a href="#"><img src="img/20140923nhixcc.jpg"/></a></li>
+							<li><a href="#"><img src="img/20140923teynrm.jpg"/></a></li>
+							<li><a href="#"><img src="img/20160301samneq.jpg"/></a></li>
+							<li><a href="#"><img src="img/20160902nzafsl.jpg"/></a></li>
+						</ul>
+						<div id="pages">
+							<a href="javascript:void(0)">1</a>
+							<a href="javascript:void(0)">2</a>
+							<a href="javascript:void(0)">3</a>
+							<a href="javascript:void(0)">4</a>
+						</div>
+					</div>
+					<div class="banner-b">
+						<ul>
+							<li class="product">
+								<a href="#">代理须知</a>&nbsp;|&nbsp;
+								<a href="#">售后说明</a>&nbsp;|&nbsp;
+								<a href="#">产品变动</a>
+							</li>
+							<li class="download">
+								<a href="#">数据包下载</a>&nbsp;|&nbsp;
+								<a href="#">原图下载</a>&nbsp;|&nbsp;
+								<a href="#">使用教程</a>
+							</li>
+							<li class="select">
+								<a href="#">网点查询</a>&nbsp;|&nbsp;
+								<a href="#">快递跟踪</a>&nbsp;|&nbsp;
+								<a href="#">运费说明</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="banner-r">
+					<div class="index-pro">
+						
+					</div>
+					<div class="banner-tab">
+						<div class="tab-title">
+							<a href="javascript:void(0)">最新公告</a>
+							<a href="javascript:void(0)">开店指南</a>
+						</div>
+						<div class="tab-body">
+							<ul class="tab">
+								<li><a href="#">2016年春节放假通知</a></li>
+								<li><a href="#">一键发布到淘宝功能上线</a></li>
+								<li><a href="#">产品变动通知9月14日更新</a></li>
+								<li><a href="#">淘美鞋获得可信网站认证</a></li>
+								<li><a href="#">最新数据包下载(1月10日更新)</a></li>
+								<li><a href="#">2015年国庆放假通知</a></li>
+								<li><a href="#">2015年中秋放假通知</a></li>
+							</ul>
+							<ul class="tab">
+								<li><a href="#">2016天天特价报名技巧 报名入口</a></li>
+								<li><a href="#">解决淘宝同款问题的方法</a></li>
+								<li><a href="#">淘宝SEO:新品快速获得综合排名</a></li>
+								<li><a href="#">双十二活动报价技巧</a></li>
+								<li><a href="#">5.1号淘宝更新后新品上综合排名</a></li>
+								<li><a href="#">武汉部分淘宝卖家遭职业差评</a></li>
+								<li><a href="#">淘宝身份证认证上半身和手持身份</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="products-floor new-floor">
+				<a href="#"><img src="img/banner1.gif"/></a>
+				<div class="floor-title">
+					<h2><a href="#"></a></h2>
+					<p><a href="#">更多新品>></a></p>
+				</div>
+				<div class="floor-box">
+					<ul>
+					</ul>
+				</div>
+			</div>
+			<div class="products-floor bast-floor">
+				<div class="floor-title">
+					<h2><a href="#"></a></h2>
+					<p><a href="#">更多精品>></a></p>
+				</div>
+				<div class="floor-box">
+					<ul>
+					</ul>
+				</div>
+			</div>
+			<div class="products-floor hot-floor">
+				<a href="#"><img src="img/remai.gif"/></a>
+				<div class="floor-title">
+					<h2><a href="#"></a></h2>
+					<p><a href="#">更多热卖>></a></p>
+				</div>
+				<div class="floor-box">
+					<ul>
+					</ul>
+				</div>
+			</div>
+			<div class="products-floor keep-floor">
+				<a href="#"><img src="img/banner1.gif"/></a>
+				<div class="floor-title">
+					<h2><a href="#"></a></h2>
+					<p><a href="#">更多>></a></p>
+				</div>
+				<div class="floor-box">
+					<div class="top">
+						<li class="">
+							<div class="item-ico"></div>
+							<div class="item-pic">
+								<a href=""><img src="img/5705_thumb_G_1442218426283.jpg"/></a>
+							</div>
+							<div class="item-text">
+								<p class="text-name"><a href="#">防水台方跟细带短靴</a></p>
+								<p class="product-id">货号：<span>6831</span></p>
+								<p class="product-price">65.00</p>
+							</div>
+						</li>
+						<li class="">
+							<div class="item-ico"></div>
+							<div class="item-pic">
+								<a href=""><img src="img/5786_thumb_G_1445047749300.jpg"/></a>
+							</div>
+							<div class="item-text">
+								<p class="text-name"><a href="#">磨砂尖头细跟短靴</a></p>
+								<p class="product-id">货号：<span>6911</span></p>
+								<p class="product-price">76.00</p>
+							</div>
+						</li>
+						<li class="big-top top-item">
+							<div class="item-ico"></div>
+							<div class="item-pic">
+								<a href=""><img src="img/4766_thumb_G_1412059655719.jpg"/></a>
+							</div>
+							<div class="item-text">
+								<p class="text-name"><a href="#">蝴蝶结内增高短筒女靴</a></p>
+								<p class="product-id">货号：<span>5902</span></p>
+								<p class="product-price">61.00</p>
+							</div>
+						</li>
+						<li class="top-item">
+							<div class="item-ico"></div>
+							<div class="item-pic">
+								<a href=""><img src="img/6628_thumb_G_1476511838879.jpg"/></a>
+							</div>
+							<div class="item-text">
+								<p class="text-name"><a href="#">2015年秋冬荷叶边磨砂高筒内增高长靴</a></p>
+								<p class="product-id">货号：<span>6831</span></p>
+								<p class="product-price">65.00</p>
+							</div>
+						</li>
+						<li class="top-item">
+							<div class="item-ico"></div>
+							<div class="item-pic">
+								<a href=""><img src="img/5617_thumb_G_1440229982877.jpg"/></a>
+							</div>
+							<div class="item-text">
+								<p class="text-name"><a href="#">粗跟磨砂圆头短靴</a></p>
+								<p class="product-id">货号：<span>6931</span></p>
+								<p class="product-price">69.00</p>
+							</div>
+						</li>
+						<li class="top-item">
+							<div class="item-ico"></div>
+							<div class="item-pic">
+								<a href=""><img src="img/6261_thumb_G_1460528408688.jpg"/></a>
+							</div>
+							<div class="item-text">
+								<p class="text-name"><a href="#">圆头蝴蝶结粗跟鞋</a></p>
+								<p class="product-id">货号：<span>6841</span></p>
+								<p class="product-price">265.00</p>
+							</div>
+						</li>
+						<li class="top-item">
+							<div class="item-ico"></div>
+							<div class="item-pic">
+								<a href=""><img src="img/6652_thumb_G_1477814000127.jpg"/></a>
+							</div>
+							<div class="item-text">
+								<p class="text-name"><a href="#">2016新款高跟防水台显瘦PU长筒女靴</a></p>
+								<p class="product-id">货号：<span>6831</span></p>
+								<p class="product-price">65.00</p>
+							</div>
+						</li>
+						<li class="top-item">
+							<div class="item-ico"></div>
+							<div class="item-pic">
+								<a href=""><img src="img/5752_thumb_G_1446959710403.jpg"/></a>
+							</div>
+							<div class="item-text">
+								<p class="text-name"><a href="#">内增高磨砂纯色短靴</a></p>
+								<p class="product-id">货号：<span>6878</span></p>
+								<p class="product-price">68.00</p>
+							</div>
+						</li>
+						<li class="top-item">
+							<div class="item-ico"></div>
+							<div class="item-pic">
+								<a href=""><img src="img/5680_thumb_G_1442045758991.jpg"/></a>
+							</div>
+							<div class="item-text">
+								<p class="text-name"><a href="#">2015年新款加毛保暖长筒女靴过膝</a></p>
+								<p class="product-id">货号：<span>5831</span></p>
+								<p class="product-price">100.00</p>
+							</div>
+						</li>
+						<li class="top-item">
+							<div class="item-ico"></div>
+							<div class="item-pic">
+								<a href=""><img src="img/4642_thumb_G_1408604503527.jpg"/></a>
+							</div>
+							<div class="item-text">
+								<p class="text-name"><a href="#">圆头台方跟细带短靴</a></p>
+								<p class="product-id">货号：<span>6837</span></p>
+								<p class="product-price">75.00</p>
+							</div>
+						</li>
+					</div>
+					<ul>
+					</ul>
+				</div>
+			</div>
+			<div class="products-floor about-us">
+				<div class="us-l">
+					<div class="real-show">
+						<div class="show-name">
+							<a href="javascript:void(0)">实时订单</a>
+							<a href="javascript:void(0)">最新发货</a>
+						</div>
+						<div class="show-body">
+							<ul class="order">
+								
+							</ul>
+							<ul class="send">
+								
+							</ul>
+						</div>
+					</div>
+					<div class="subscription">
+						<p>订阅最新商品信息</p>
+						<div class="email-info">
+							<input type="text" id="email-info" placeholder="请输入您的电子邮箱"/><a href="javascript:void(0)">订阅</a>
+						</div>
+					</div>
+				</div>
+				<div class="floor-box">
+					<div class="floor-title">
+						<h2><a href="#"></a></h2>
+						<ul class="us">
+							<li><a href="javascript:void(0)">关于淘美鞋</a></li>
+							<li><a href="javascript:void(0)">社会现状</a></li>
+							<li><a href="javascript:void(0)">我们的优势</a></li>
+							<li><a href="javascript:void(0)">服务亮点</a></li>
+							<li><a href="javascript:void(0)">免费服务</a></li>
+						</ul>
+					</div>
+					<div class="show-us">
+						<div class="show-box">
+							<img src="img/20141017211156_57344.jpg" alt="" />
+						</div>
+						<div class="show-box">
+							<img src="img/20141013224600_32962.jpg" alt="" />
+						</div>
+						<div class="show-box">
+							<img src="img/20141013224646_89905.jpg" alt="" />
+						</div>
+						<div class="show-box">
+							<img src="img/20141013224630_97212.jpg" alt="" />
+						</div>
+						<div class="show-box">
+							<img src="img/20141014222233_98335.jpg" alt="" />
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="main-footlist">
+				<dl>
+					<dt><a href="#">新手上路</a></dt>
+					<dd><a href="#">数据包使用教程</a></dd>
+					<dd><a href="#">推广现金提层</a></dd>
+					<dd><a href="#">女鞋代理说明</a></dd>
+				</dl>
+				<dl>
+					<dt><a href="#">配送指南</a></dt>
+					<dd><a href="#">运费说明</a></dd>
+					<dd><a href="#">配送方式</a></dd>
+					<dd><a href="#">网店查询</a></dd>
+					<dd><a href="#">快递跟踪</a></dd>
+				</dl>
+				<dl class="center">
+					<div>
+						<a href="#"></a><a href="#"></a>
+					</div>
+				</dl>
+				<dl>
+					<dt><a href="#">如何付款</a></dt>
+					<dd><a href="#">支付方式</a></dd>
+				</dl>
+				<dl>
+					<dt><a href="#">售后服务</a></dt>
+					<dd><a href="#">售后说明</a></dd>
+					<dd><a href="#">售后服务</a></dd>
+					<dd><a href="#">联系我们</a></dd>
+					<dd><a href="#">关于我们</a></dd>
+				</dl>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="footer-top"></div>
+			<div class="footer-lis">
+				<b>友情链接：</b><a href="#">女鞋分销</a><a href="#">网上买家具</a><a href="#">快递查询</a><a href="#">女鞋批发</a><a href="#">女鞋代理</a>
+			</div>
+			<div class="footer-bottom">
+				<div></div>
+				<p>©2008～2014 成都淘美秀商贸有限公司 All rights reserved 本商店产品图片均为实物拍摄都已经申请保护，不经授权不得使用！</p>
+				<p>电话：<span>4008518595 </span>工作时间：9:00－23:00 邮箱：service@taomeixie.com</p>
+			</div>
+		</div>
+		<div class="nav-rfloatbg">
+			<div class="nav">
+				<ul>
+					<li><a href="javascript:void(0)"></a><i></i></li>
+					<li><a href="javascript:void(0)"></a><i></i></li>
+					<li><a href="javascript:void(0)"></a><em id="tab-cartnum">0</em><i></i></li>
+					<li><a href="javascript:void(0)"></a><i></i></li>
+					<li><a href="javascript:void(0)"></a><i></i></li>
+					<li><a href="javascript:void(0)"></a><i></i></li>
+				</ul>
+			</div>
+			<div class="go-top">
+				<a href="javascript:void(0)"><p></p>
+				返回顶部</a>
+			</div>
+			<div class="nav-box">
+				<div class="nav-body">
+					<div class="show-title">
+						我浏览过的商品
+					</div>
+					<div class="close"><a href="javascript:void(0)"></a></div>
+					<div class="show-box">
+						
+					</div>
+				</div>
+				<div class="nav-body">
+					<div class="show-title">
+						我收藏的商品
+					</div>
+					<div class="close"><a href="javascript:void(0)"></a></div>
+					<div class="show-box">
+						<div class="empty-img"></div>
+						<p>您还没有收藏如何商品哦</p>
+					</div>
+				</div>
+				<div class="nav-body">
+					<div class="show-title">
+						购物车
+					</div>
+					<div class="close"><a href="javascript:void(0)"></a></div>
+					<div class="show-box">
+						<div class="empty-img"></div>
+						<p>您还没有收藏如何商品哦</p>
+						<p>赶紧去<a class="go-shoop"href="#">挑选商品</a>吧</p>
+					</div>
+				</div>
+				<div class="nav-body">
+					<div class="show-title">
+						在线客服
+					</div>
+					<div class="close"><a href="javascript:void(0)"></a></div>
+					<div class="show-box">
+						<h4>企业QQ</h4>
+						<a href="#"></a>
+						<h4>旺旺客服</h4>
+						<a href="#"></a>
+						<a href="#"></a>
+						<h4>客户经理</h4>
+						<a href="#"></a>
+						<p>工作时间:</p>
+						<p>(9:00-23:00)</p>
+						<p><span>4008-518-595</span></p>
+					</div>
+				</div>
+				<div class="nav-body">
+					<div class="show-title">
+						在线客服
+					</div>
+					<div class="close"><a href="javascript:void(0)"></a></div>
+					<div class="show-box">
+						<h4>企业QQ</h4>
+						<a href="#"></a>
+						<h4>旺旺客服</h4>
+						<a href="#"></a>
+						<a href="#"></a>
+						<h4>客户经理</h4>
+						<a href="#"></a>
+						<p>工作时间:</p>
+						<p>(9:00-23:00)</p>
+						<p><span>4008-518-595</span></p>
+					</div>
+				</div>
+				<div class="nav-body">
+					<div class="show-title">
+						微信扫一扫
+					</div>
+					<div class="close"><a href="javascript:void(0)"></a></div>
+					<div class="show-box">
+						<img src="img/weixin.jpg" alt="" />
+						<dl>
+							<dt>微信号：<span>taomeixie123</span></dt>
+							<dd>工作时间：</dd>
+							<dd>(9:00-23:00)</dd>
+							<dd><span>4008-518-595</span></dd>
+						</dl>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/jquery-1.12.4.min.js">	
+		</script>
+		<script type="text/javascript" src="js/template-native.js">	
+		</script>
+		<script type="text/javascript" src="js/index.js">
+		</script>
+		<!--定义模板:楼层商品展示-->
+		<script type="text/html" id="temp">
+			<%for(var i = 0;i < products.length; i++){
+				var p = products[i];
+			%>
+				<li>
+					<p class="img"><a href="#"><img src="<%=p.imgurl%>"/></a></p>
+					<p class="product-title"><a href="javascript:void(0)"><%=p.title%><span><i>￥</i><%=p.price%></span></a></p>
+					<p class="product-num"><span>货号：[<%=p.num%>]</span><i>人气：<%=p.moods%></i></p>
+				</li>	
+			<%}%>
+		</script>
+		<!--定义模板:实时订单展示-->
+		<script type="text/html" id="order">
+			<%for(var i = 0;i < orders.length; i++){
+				var p = orders[i];
+			%>
+				<li>
+					<p class="product-num">订单：<span><%=p.num%></span></p>
+					<p class="member-name">会员:<%=p.name%> 金额：<i>￥<%=p.price%></i>已付款</p>
+				</li>	
+			<%}%>
+		</script>
+		<!--定义模板：最新发货展示-->
+		<script type="text/html" id="send">
+			<%for(var i = 0;i < sends.length; i++){
+				var p = sends[i];
+			%>
+				<li>
+					<p class="product-num">订单：<span><%=p.num%></span>已发出</p>
+				</li>	
+			<%}%>
+		</script>
+		<script type="text/javascript">
+			// 准备数据
+			var data1 = {
+				products : [
+					{imgurl:"img/5550_thumb_G_1437484377719.jpg", title:"2017新款单鞋尖头浅口韩", price:"60.00",num:7905,moods:200},
+					{imgurl:"img/5617_thumb_G_1440229982877.jpg", title:"2017新款单鞋尖头浅口韩", price:"160.00",num:7906,moods:210},
+					{imgurl:"img/5680_thumb_G_1442045758991.jpg", title:"2017新款单鞋尖头浅口韩", price:"110.00",num:7907,moods:2000},
+					{imgurl:"img/5786_thumb_G_1445047749300.jpg", title:"2017新款单鞋尖头浅口韩", price:"69.00",num:7908,moods:22},
+					{imgurl:"img/6156_thumb_G_1457942410220.jpg", title:"2017新款单鞋尖头浅口韩", price:"70.00",num:7909,moods:20}
+				]
+			};
+			// 使用数据渲染模板
+			var html = template("temp", data1);
+			// 显示出渲染结果
+			$(".new-floor ul").html(html);
+			var data2 = {
+				products : [
+					{imgurl:"img/5550_thumb_G_1437484377719.jpg", title:"2017新款单鞋尖头浅口韩", price:"60.00",num:7905,moods:200},
+					{imgurl:"img/5617_thumb_G_1440229982877.jpg", title:"2017新款单鞋尖头浅口韩", price:"160.00",num:7906,moods:210},
+					{imgurl:"img/5680_thumb_G_1442045758991.jpg", title:"2017新款单鞋尖头浅口韩", price:"110.00",num:7907,moods:2000},
+					{imgurl:"img/5617_thumb_G_1440229982877.jpg", title:"2017新款单鞋尖头浅口韩", price:"160.00",num:7906,moods:210},
+					{imgurl:"img/5786_thumb_G_1445047749300.jpg", title:"2017新款单鞋尖头浅口韩", price:"69.00",num:7908,moods:22},
+					{imgurl:"img/6156_thumb_G_1457942410220.jpg", title:"2017新款单鞋尖头浅口韩", price:"70.00",num:7909,moods:20},
+					{imgurl:"img/5786_thumb_G_1445047749300.jpg", title:"2017新款单鞋尖头浅口韩", price:"69.00",num:7908,moods:22},
+					{imgurl:"img/6156_thumb_G_1457942410220.jpg", title:"2017新款单鞋尖头浅口韩", price:"70.00",num:7909,moods:20},
+					{imgurl:"img/5550_thumb_G_1437484377719.jpg", title:"2017新款单鞋尖头浅口韩", price:"60.00",num:7905,moods:200},
+					{imgurl:"img/5617_thumb_G_1440229982877.jpg", title:"2017新款单鞋尖头浅口韩", price:"160.00",num:7906,moods:210}
+				]
+			};
+			// 使用数据渲染模板
+			var html2 = template("temp", data2);
+			// 显示出渲染结果
+			$(".bast-floor ul").html(html2);
+			var data3 = {
+				products : [
+					{imgurl:"img/5550_thumb_G_1437484377719.jpg", title:"2017新款单鞋尖头浅口韩", price:"60.00",num:7905,moods:200},
+					{imgurl:"img/5617_thumb_G_1440229982877.jpg", title:"2017新款单鞋尖头浅口韩", price:"160.00",num:7906,moods:210},
+					{imgurl:"img/5680_thumb_G_1442045758991.jpg", title:"2017新款单鞋尖头浅口韩", price:"110.00",num:7907,moods:2000},
+					{imgurl:"img/5786_thumb_G_1445047749300.jpg", title:"2017新款单鞋尖头浅口韩", price:"69.00",num:7908,moods:22},
+					{imgurl:"img/6156_thumb_G_1457942410220.jpg", title:"2017新款单鞋尖头浅口韩", price:"70.00",num:7909,moods:20},
+					{imgurl:"img/6156_thumb_G_1457942410220.jpg", title:"2017新款单鞋尖头浅口韩", price:"70.00",num:7909,moods:20},
+					{imgurl:"img/5550_thumb_G_1437484377719.jpg", title:"2017新款单鞋尖头浅口韩", price:"60.00",num:7905,moods:200},
+					{imgurl:"img/5617_thumb_G_1440229982877.jpg", title:"2017新款单鞋尖头浅口韩", price:"160.00",num:7906,moods:210},
+					{imgurl:"img/5786_thumb_G_1445047749300.jpg", title:"2017新款单鞋尖头浅口韩", price:"69.00",num:7908,moods:22},
+					{imgurl:"img/6156_thumb_G_1457942410220.jpg", title:"2017新款单鞋尖头浅口韩", price:"70.00",num:7909,moods:20},
+					{imgurl:"img/5550_thumb_G_1437484377719.jpg", title:"2017新款单鞋尖头浅口韩", price:"60.00",num:7905,moods:200},
+					{imgurl:"img/5550_thumb_G_1437484377719.jpg", title:"2017新款单鞋尖头浅口韩", price:"60.00",num:7905,moods:200},
+					{imgurl:"img/5617_thumb_G_1440229982877.jpg", title:"2017新款单鞋尖头浅口韩", price:"160.00",num:7906,moods:210},
+					{imgurl:"img/5680_thumb_G_1442045758991.jpg", title:"2017新款单鞋尖头浅口韩", price:"110.00",num:7907,moods:2000},
+					{imgurl:"img/5786_thumb_G_1445047749300.jpg", title:"2017新款单鞋尖头浅口韩", price:"69.00",num:7908,moods:22},
+					{imgurl:"img/6156_thumb_G_1457942410220.jpg", title:"2017新款单鞋尖头浅口韩", price:"70.00",num:7909,moods:20},
+					{imgurl:"img/5786_thumb_G_1445047749300.jpg", title:"2017新款单鞋尖头浅口韩", price:"69.00",num:7908,moods:22},
+					{imgurl:"img/6156_thumb_G_1457942410220.jpg", title:"2017新款单鞋尖头浅口韩", price:"70.00",num:7909,moods:20},
+					{imgurl:"img/5550_thumb_G_1437484377719.jpg", title:"2017新款单鞋尖头浅口韩", price:"60.00",num:7905,moods:200},
+					{imgurl:"img/5617_thumb_G_1440229982877.jpg", title:"2017新款单鞋尖头浅口韩", price:"160.00",num:7906,moods:210}
+				]
+			};
+			// 使用数据渲染模板
+			var html3 = template("temp", data3);
+			// 显示出渲染结果
+			$(".hot-floor ul").html(html3);
+			var data4 = {
+				products : [
+					{imgurl:"img/5680_thumb_G_1442045758991.jpg", title:"2017新款单鞋尖头浅口韩", price:"110.00",num:7907,moods:2000},
+					{imgurl:"img/5786_thumb_G_1445047749300.jpg", title:"2017新款单鞋尖头浅口韩", price:"69.00",num:7908,moods:22},
+					{imgurl:"img/6156_thumb_G_1457942410220.jpg", title:"2017新款单鞋尖头浅口韩", price:"70.00",num:7909,moods:20},
+					{imgurl:"img/5786_thumb_G_1445047749300.jpg", title:"2017新款单鞋尖头浅口韩", price:"69.00",num:7908,moods:22},
+					{imgurl:"img/6156_thumb_G_1457942410220.jpg", title:"2017新款单鞋尖头浅口韩", price:"70.00",num:7909,moods:20},
+					{imgurl:"img/5550_thumb_G_1437484377719.jpg", title:"2017新款单鞋尖头浅口韩", price:"60.00",num:7905,moods:200},
+					{imgurl:"img/5550_thumb_G_1437484377719.jpg", title:"2017新款单鞋尖头浅口韩", price:"60.00",num:7905,moods:200},
+					{imgurl:"img/5680_thumb_G_1442045758991.jpg", title:"2017新款单鞋尖头浅口韩", price:"110.00",num:7907,moods:2000}
+				]
+			};
+			// 使用数据渲染模板
+			var html4 = template("temp", data4);
+			// 显示出渲染结果
+			$(".keep-floor ul").html(html4);
+			var data5 ={
+				orders:[
+					{num:20160112230102,name:"h***1",price:"25.00"},
+					{num:20161212230102,name:"a***1",price:"75.00"},
+					{num:20150112230102,name:"b***1",price:"35.00"},
+					{num:20140112230102,name:"c***1",price:"45.00"},
+					{num:20130112230102,name:"d***1",price:"205.00"},
+					{num:20120112230102,name:"e***1",price:"85.00"},
+					{num:20110112230102,name:"f***1",price:"95.00"},
+					{num:20100112230102,name:"g***1",price:"15.00"}	
+				]
+			};
+			var html5 = template("order", data5);
+			$(".real-show .order").html(html5);
+			var data6 ={
+				sends:[
+					{num:20160112230102,name:"h***1",price:"25.00"},
+					{num:20161212230102,name:"a***1",price:"75.00"},
+					{num:20150112230102,name:"b***1",price:"35.00"},
+					{num:20140112230102,name:"c***1",price:"45.00"},
+					{num:20130112230102,name:"d***1",price:"205.00"},
+					{num:20120112230102,name:"e***1",price:"85.00"},
+					{num:20110112230102,name:"f***1",price:"95.00"},
+					{num:20100112230102,name:"g***1",price:"15.00"}	
+				]
+			};
+			var html6 = template("send", data6);
+			$(".real-show .send").html(html6);
+		</script>	
+	</body>
+</html>
